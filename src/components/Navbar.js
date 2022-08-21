@@ -15,27 +15,56 @@ const Navbar = () => {
           <h1 className="text-3xl font-bold mr-4 sm:text-4xl">BRAND.</h1>
           <ul className="hidden md:flex">
             <li>
-              <Link to="home" smooth={true} duration={500}>
+              <Link
+                className="cursor-pointer"
+                to="home"
+                smooth={true}
+                duration={500}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="about" smooth={true} offset={50} duration={500}>
+              <Link
+                className="cursor-pointer"
+                to="about"
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link to="support" smooth={true} offset={50} duration={500}>
+              <Link
+                className="cursor-pointer"
+                to="support"
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Support
               </Link>
             </li>
             <li>
-              <Link to="platforms" smooth={true} offset={50} duration={500}>
+              <Link
+                className="cursor-pointer"
+                to="platforms"
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Platform
               </Link>
             </li>
             <li>
-              <Link to="pricing" smooth={true} offset={50} duration={500}>
+              <Link
+                className="cursor-pointer"
+                to="pricing"
+                smooth={true}
+                offset={50}
+                duration={500}
+              >
                 Pricing
               </Link>
             </li>
@@ -63,6 +92,7 @@ const Navbar = () => {
         </li>
         <li className="border-b-2 border-zinc-300 w-full">
           <Link
+            className="cursor-pointer"
             onClick={handleClose}
             to="about"
             smooth={true}
@@ -74,6 +104,7 @@ const Navbar = () => {
         </li>
         <li className="border-b-2 border-zinc-300 w-full">
           <Link
+            className="cursor-pointer"
             onClick={handleClose}
             to="support"
             smooth={true}
@@ -85,6 +116,7 @@ const Navbar = () => {
         </li>
         <li className="border-b-2 border-zinc-300 w-full">
           <Link
+            className="cursor-pointer"
             onClick={handleClose}
             to="platforms"
             smooth={true}
@@ -96,6 +128,7 @@ const Navbar = () => {
         </li>
         <li className="border-b-2 border-zinc-300 w-full">
           <Link
+            className="cursor-pointer"
             onClick={handleClose}
             to="pricing"
             smooth={true}
